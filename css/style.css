@@ -25,6 +25,10 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    min-height: 100vh;
+    margin: 0;
+    top: 0;
+    bottom: 0;
 }
 
 #container {
@@ -72,10 +76,12 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--option-color4);
   }
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
   }
 
 @media (max-width: 1440px) and (min-width: 375px) {
